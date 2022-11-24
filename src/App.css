@@ -1,0 +1,84 @@
+/*  */
+.Header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.battle-outer {
+  width: 70%;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 40px;
+  margin: 20px 0px;
+  font-weight: 600;
+  font-family: cursive;
+}
+.card {
+  box-shadow: 4px 4px 15px rgb(43 92 170 / 20%);
+  border: unset !important;
+  text-align: center;
+}
+.btn.btn-primary {
+  background: #6366f1 !important;
+}
+.card img {
+  padding: 10px;
+}
+.logout {
+  height: fit-content;
+}
+.submitdata {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  border-bottom: 1px solid #6366f2;
+}
+/*  */
+.profile-input {
+  /* // padding: 5px 10px; */
+  background: #fff;
+  /* // border: 1px solid rgba(44, 56, 74, 0.95); */
+  position: relative;
+  color: rgba(44, 56, 74, 0.95);
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.hide_file {
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+  cursor: pointer;
+  right: 50%;
+  top: 0%;
+  height: 100%;
+  width: 64%;
+  margin: 0 auto;
+  transform: translate(50%, 0%);
+  background: aliceblue;
+  border-radius: 50%;
+}
+.profile-upload-btn {
+  padding: 5px 10px;
+  background: rgba(44, 56, 74, 0.95);
+  border: 1px solid rgba(44, 56, 74, 0.95);
+  border-radius: 2px;
+  color: #fff !important;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  /* // margin: 10px auto; */
+}
+.preview img {
+  object-fit: cover;
+  object-position: center center;
+}
+.profile-input img {
+  width: 100%;
+}
