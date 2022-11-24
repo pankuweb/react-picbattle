@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { APIURL } from "../Utils/url.js";
-import Pagination from "react-js-pagination";
+// import Pagination from "react-js-pagination";
 
 function Profile() {
   const id = localStorage.getItem("userID");
